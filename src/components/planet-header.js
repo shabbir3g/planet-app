@@ -19,7 +19,7 @@ export default function PlanetHeader({ backBtn, title = "THE PLANETS" }) {
                 </Pressable>
 
             )}
-            <Text preset='h2'>{title}</Text>
+            <Text preset='h2' style={{ textTransform: 'uppercase' }}>{title}</Text>
         </View>
     )
 }
